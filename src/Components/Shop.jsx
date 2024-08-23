@@ -85,7 +85,7 @@ const Shop = () => {
     <div className="container mx-auto px-6" data-aos="fade-up">
       <div className="lg:flex justify-between py-8">
         <h2 className="font-black py-4 text-3xl">SHOP</h2>
-        <div className="flex flex-wrap gap-x-8 gap-y-4 mb-8 pt-4 lg:mb-0 text-sm border-b border-transparent h-8">
+        <div className="flex flex-wrap gap-x-8 gap-y-4 mb-8 pt-4 lg:mb-0 text-sm border-b border-transparent">
           <p className={`cursor-pointer h-6 sm:w-auto ${active === "ALL" ? "font-bold border-b-2 border-neutral" : ""}`} onClick={() => setActive("ALL")}>
             ALL
           </p>
